@@ -155,7 +155,7 @@ function toggle_payload(pld){
 		preloadScripts(['preloader.js', 'enableupdates.js', 'loader.js']);
 	}else if(pld == "webrte"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
-		preloadScripts(['preloader.js', 'webrte755.js', 'loader.js']);
+		preloadScripts(['preloader.js', 'webrte.js', 'loader.js']);
 	}else if(pld == "gtava1"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		preloadScripts(['preloader.js', 'gtava1.js', 'loader.js']);
@@ -165,6 +165,10 @@ function toggle_payload(pld){
 	}else if(pld == "gtava3"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		preloadScripts(['preloader.js', 'gtava3.js', 'loader.js']);
+	}else if(pld == "fan"){
+		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
+		preloadScripts(['preloader.js', 'fanThreshold.js', 'loader.js']);
+		localStorage.setItem('fanthreshold', tempC.value);
 	}
 	if(window.postPayload)
 		window.postPayload();
