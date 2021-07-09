@@ -87,16 +87,16 @@ function setupRW() {
 function toggle_payload(pld){
 	if(pld == "goldhen1"){
 		document.getElementById("progress").innerHTML="Loading GoldHenv1.0.. Please wait..";
-		if(fw=="755"){
+	if(fw=="755"){
 			preloadScripts(['jb.js', 'preloader.js', 'goldhen1v'+fw+'.js', 'loader.js']);
-		}else{
+	}else{
 			preloadScripts(['preloader'+fw+'.js', 'goldhen1v'+fw+'.js', 'loader.js']);	
 		}
 	}else if(pld == "goldhen"){
 		document.getElementById("progress").innerHTML="Loading GoldHenv1.1.. Please wait..";
-		if(fw=="755"){
+	if(fw=="755"){
 			preloadScripts(['jb.js', 'preloader.js', 'goldhen'+fw+'.js', 'loader.js']);
-		}else{
+	}else{
 			preloadScripts(['preloader'+fw+'.js', 'goldhen'+fw+'.js', 'loader.js']);	
 		}
 	}else if(pld == "hen213b"){
