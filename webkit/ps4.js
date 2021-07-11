@@ -165,6 +165,9 @@ function toggle_payload(pld){
 	}else if(pld == "gtava3"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		preloadScripts(['preloader.js', 'gtava3.js', 'loader.js']);
+	}else if(pld == "gtavl"){
+		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
+		preloadScripts(['preloader.js', 'gtavl.js', 'loader.js']);
 	}else if(pld == "fan"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		preloadScripts(['preloader.js', 'fanThreshold.js', 'loader.js']);
