@@ -30,6 +30,9 @@ kernelclock.js
 linuxl1gb.js
 linuxl3gb.js
 loader.js
+Oysters-1.13.js
+Oysters-1.19.js
+Oysters-1.24.js
 payload.js
 preloader.js
 preloader750.js
@@ -37,9 +40,6 @@ preloader751.js
 preloaderx.js
 ps4.jpg
 ps4.js
-rd2113.js
-rd2119.js
-rd2124.js
 rifrenamer.js
 todex.js
 Toolbox.js
