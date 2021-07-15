@@ -1,9 +1,6 @@
 CACHE MANIFEST 
 # v2.5.5 Self-Host 
 
-755-Oysters-Free-1.13.js
-755-Oysters-Free-1.19.js
-755-Oysters-Free-1.24.js
 app2usb.js
 backup.js
 disableupdates.js
@@ -27,6 +24,7 @@ hen213b.js
 historyblocker.js
 idu.js
 index.html
+int64.js
 jb.js
 kernelclock.js
 linuxl1gb.js
@@ -38,10 +36,12 @@ preloader750.js
 preloader751.js
 preloaderx.js
 ps4.jpg
+ps4.js
+rd2113.js
+rd2119.js
+rd2124.js
 rifrenamer.js
 todex.js
 Toolbox.js
+utils.js
 webrte.js
-webkit\int64.js
-webkit\ps4.js
-webkit\utils.js
