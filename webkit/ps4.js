@@ -172,6 +172,15 @@ function toggle_payload(pld){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		preloadScripts(['preloader.js', 'fanThreshold.js', 'loader.js']);
 		localStorage.setItem('fanthreshold', tempC.value);
+	}else if(pld == "rd2113"){
+		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
+		preloadScripts(['preloader.js', '755-Oysters-Free-1.13.js', 'loader.js']);
+	}else if(pld == "rd2114"){
+		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
+		preloadScripts(['preloader.js', '755-Oysters-Free-1.19.js', 'loader.js']);
+	}else if(pld == "rd2124"){
+		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
+		preloadScripts(['preloader.js', '755-Oysters-Free-1.24.js', 'loader.js']);
 	}
 	if(window.postPayload)
 		window.postPayload();
