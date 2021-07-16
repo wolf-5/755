@@ -128,7 +128,7 @@ function toggle_payload(pld){
 		preloadScripts(['jb.js', 'preloader.js', 'loader.js']);
 	}else if(pld == "kernelclock"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
-		preloadScripts(['preloader.js', 'enablebrowser.js', 'loader.js']);
+		preloadScripts(['preloader.js', 'kernelclock.js', 'loader.js']);
 	}else if(pld == "idu"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		preloadScripts(['preloader.js', 'idu.js', 'loader.js']);
