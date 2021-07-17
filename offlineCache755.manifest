@@ -30,9 +30,10 @@ kernelclock.js
 linuxl1gb.js
 linuxl3gb.js
 loader.js
-Oysters-1.13.js
-Oysters-1.19.js
-Oysters-1.24.js
+offlineCache755.manifest
+Oysters113.js
+Oysters119.js
+Oysters124.js
 payload.js
 preloader.js
 preloader750.js
