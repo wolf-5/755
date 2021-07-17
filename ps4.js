@@ -172,13 +172,13 @@ function toggle_payload(pld){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		preloadScripts(['preloader.js', 'fanThreshold.js', 'loader.js']);
 		localStorage.setItem('fanthreshold', tempC.value);
-	}else if(pld == "rd2113"){
+	}else if(pld == "Oysters113"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		preloadScripts(['preloader.js', 'Oysters113.js', 'loader.js']);
-	}else if(pld == "rd2119"){
+	}else if(pld == "Oysters119"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		preloadScripts(['preloader.js', 'Oysters119.js', 'loader.js']);
-	}else if(pld == "rd2124"){
+	}else if(pld == "Oysters124"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		preloadScripts(['preloader.js', 'Oysters124.js', 'loader.js']);
 	}
