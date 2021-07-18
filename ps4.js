@@ -137,11 +137,11 @@ function toggle_payload(pld){
 		preloadScripts(['preloader.js', 'rifrenamer.js', 'loader.js']);
 	}else if(pld == "linux1gb"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
-		preloadScripts(['preloader.js', 'linux1G.js', 'loader.js']);
+		preloadScripts(['preloader.js', 'linuxl1gb.js', 'loader.js']);
 	}else if(pld == "linux3gb"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
-		preloadScripts(['preloader.js', 'linux3G.js', 'loader.js']);
-	}else if(pld == "Toolbox"){
+		preloadScripts(['preloader.js', 'linuxl3gb.js', 'loader.js']);
+	}else if(pld == "todex"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		preloadScripts(['preloader.js', 'Toolbox.js', 'loader.js']);
 	}else if(pld == "historyblocker"){
