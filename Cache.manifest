@@ -1,8 +1,11 @@
 CACHE MANIFEST 
-# v2.5.5 Self-Host 
+# random: 80859e6cd66a81929415d6e4b15cc97 
 
+CACHE: 
+1preloader.js
 app2usb.js
 backup.js
+Cache.manifest
 disableupdates.js
 dumper.js
 enableupdates.js
@@ -30,7 +33,6 @@ kernelclock.js
 linuxl1gb.js
 linuxl3gb.js
 loader.js
-offlineCache755.manifest
 Oysters113.js
 Oysters119.js
 Oysters124.js
@@ -46,3 +48,6 @@ todex.js
 Toolbox.js
 utils.js
 webrte.js
+
+NETWORK: 
+* 

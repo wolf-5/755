@@ -101,7 +101,7 @@ function toggle_payload(pld){
 		}
 	}else if(pld == "hen213b"){
 		document.getElementById("progress").innerHTML="Loading Hen v2.1.3b ... Please wait..";
-		preloadScripts(['jb.js', 'preloaderx.js', 'hen213b.js', 'loader.js']);
+		preloadScripts(['jb.js', 'mira.js', 'hen213b.js', 'loader.js']);
 	}else if(pld == "backup"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		preloadScripts(['preloader.js', 'backup.js', 'loader.js']);
@@ -110,7 +110,7 @@ function toggle_payload(pld){
 		preloadScripts(['preloader.js', 'restore.js', 'loader.js']);
 	}else if(pld == "dumper"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
-		preloadScripts(['jb.js', 'preloader.js', 'kerneldumper.js', 'loader.js']);
+		preloadScripts(['jb.js', 'preloader.js', 'dumper.js', 'loader.js']);
 	}else if(pld == "app2usb"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		preloadScripts(['jb.js', 'preloader.js', 'app2usb.js', 'loader.js']);
@@ -174,13 +174,13 @@ function toggle_payload(pld){
 		localStorage.setItem('fanthreshold', tempC.value);
 	}else if(pld == "Oysters113"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
-		preloadScripts(['preloader.js', 'Oysters113.js', 'loader.js']);
+		preloadScripts(['mira.js', 'Oysters113.js', 'loader.js']);
 	}else if(pld == "Oysters119"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
-		preloadScripts(['preloader.js', 'Oysters119.js', 'loader.js']);
+		preloadScripts(['mira.js', 'Oysters119.js', 'loader.js']);
 	}else if(pld == "Oysters124"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
-		preloadScripts(['preloader.js', 'Oysters124.js', 'loader.js']);
+		preloadScripts(['mira.js', 'Oysters124.js', 'loader.js']);
 	}
 	if(window.postPayload)
 		window.postPayload();
