@@ -1,10 +1,8 @@
 CACHE MANIFEST 
-# random: 80859e6cd66a81929415d6e4b15cc97 
 
 CACHE: 
 app2usb.js
 backup.js
-Cache.manifest
 disableupdates.js
 dumper.js
 enableupdates.js
@@ -33,9 +31,9 @@ linuxl1gb.js
 linuxl3gb.js
 loader.js
 mira.js
-Oysters113.js
-Oysters119.js
-Oysters124.js
+oyster113.js
+oyster119.js
+oyster124.js
 payload.js
 preloader.js
 preloader750.js
@@ -43,6 +41,7 @@ preloader751.js
 preloaderx.js
 ps4.jpg
 ps4.js
+restore.js
 rifrenamer.js
 todex.js
 Toolbox.js
