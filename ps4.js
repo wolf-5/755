@@ -135,6 +135,9 @@ function toggle_payload(pld){
 	}else if(pld == "rifrenamer"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		preloadScripts(['preloader.js', 'rifrenamer.js', 'loader.js']);
+	}else if(pld == "Toolbox"){
+		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
+		preloadScripts(['preloader.js', 'Toolbox.js', 'loader.js']);		
 	}else if(pld == "linux1gb"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		preloadScripts(['preloader.js', 'linuxl1gb.js', 'loader.js']);
@@ -143,7 +146,7 @@ function toggle_payload(pld){
 		preloadScripts(['preloader.js', 'linuxl3gb.js', 'loader.js']);
 	}else if(pld == "todex"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
-		preloadScripts(['preloader.js', 'Toolbox.js', 'loader.js']);
+		preloadScripts(['preloader.js', 'todex.js', 'loader.js']);
 	}else if(pld == "historyblocker"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		preloadScripts(['preloader.js', 'historyblocker.js', 'loader.js']);
