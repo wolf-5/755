@@ -172,15 +172,15 @@ function toggle_payload(pld){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		preloadScripts(['preloader.js', 'fanThreshold.js', 'loader.js']);
 		localStorage.setItem('fanthreshold', tempC.value);
-	}else if(pld == "Oysters113"){
+	}else if(pld == "oyster113"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
-		preloadScripts(['mira.js', 'oyster113.js', 'loader.js']);
-	}else if(pld == "Oysters119"){
+		preloadScripts(['preloader.js', 'oyster113.js', 'loader.js']);
+	}else if(pld == "oyster119"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
-		preloadScripts(['mira.js', 'oyster119.js', 'loader.js']);
-	}else if(pld == "Oysters124"){
+		preloadScripts(['preloader.js', 'oyster119.js', 'loader.js']);
+	}else if(pld == "oyster124"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
-		preloadScripts(['mira.js', 'oyster124.js', 'loader.js']);
+		preloadScripts(['preloader.js', 'oyster124.js', 'loader.js']);
 	}
 	if(window.postPayload)
 		window.postPayload();
