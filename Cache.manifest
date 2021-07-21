@@ -3,6 +3,7 @@ CACHE MANIFEST
 CACHE: 
 app2usb.js
 backup.js
+Cache.manifest
 disableupdates.js
 dumper.js
 enableupdates.js
@@ -31,9 +32,6 @@ linuxl1gb.js
 linuxl3gb.js
 loader.js
 mira.js
-oyster113.js
-oyster119.js
-oyster124.js
 payload.js
 preloader.js
 preloader750.js
@@ -47,6 +45,8 @@ todex.js
 Toolbox.js
 utils.js
 webrte.js
+New folder\jb.js
+New folder\loader.js
 
 NETWORK: 
 * 
