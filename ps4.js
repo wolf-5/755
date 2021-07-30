@@ -85,14 +85,14 @@ function setupRW() {
 		window.postExploit();
 }
 function toggle_payload(pld){
-	if(pld == "goldhen1"){
+	if(pld == "goldhen"){
 		document.getElementById("progress").innerHTML="Loading GoldHenv1.0.. Please wait..";
 	if(fw=="755"){
 			preloadScripts(['jb.js', 'preloader.js', 'goldhen1v'+fw+'.js', 'loader.js']);
 	}else{
 			preloadScripts(['preloader'+fw+'.js', 'goldhen1v'+fw+'.js', 'loader.js']);	
 		}
-	}else if(pld == "goldhen"){
+	}else if(pld == "goldhenold"){
 		document.getElementById("progress").innerHTML="Loading GoldHenv1.1.. Please wait..";
 	if(fw=="755"){
 			preloadScripts(['jb.js', 'preloader.js', 'goldhen'+fw+'.js', 'loader.js']);
@@ -102,6 +102,9 @@ function toggle_payload(pld){
 	}else if(pld == "hen213b"){
 		document.getElementById("progress").innerHTML="Loading Hen v2.1.3b ... Please wait..";
 		preloadScripts(['jb.js', 'mira.js', 'hen213b.js', 'loader.js']);
+	}else if(pld == "toolbox"){
+		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
+		preloadScripts(['preloader.js', 'Toolbox755.js', 'loader.js']);			
 	}else if(pld == "backup"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		preloadScripts(['preloader.js', 'backup.js', 'loader.js']);
@@ -117,7 +120,7 @@ function toggle_payload(pld){
 	}else if(pld == "ftp"){
 		setTimeout(function(){document.getElementById("progress").innerHTML="FTP Loaded.. Access at port 1337.."; }, 7000);
 		preloadScripts(['jb.js', 'preloader.js', 'ftp.js', 'loader.js']);
-	}else if(pld == "web"){
+	}else if(pld == "ps4debug"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		preloadScripts(['preloader.js', 'payload.js', 'loader.js', 'frontend.js']);
 	}else if(pld == "todex"){
@@ -126,27 +129,21 @@ function toggle_payload(pld){
 	}else if(pld == "binloader"){
 		document.getElementById("progress").innerHTML="Awaiting Payload.. Send Payload to port 9021..";
 		preloadScripts(['jb.js', 'preloader.js', 'loader.js']);
-	}else if(pld == "kernelclock"){
-		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
-		preloadScripts(['preloader.js', 'kernelclock.js', 'loader.js']);
 	}else if(pld == "idu"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		preloadScripts(['preloader.js', 'idu.js', 'loader.js']);
 	}else if(pld == "rifrenamer"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		preloadScripts(['preloader.js', 'rifrenamer.js', 'loader.js']);
-	}else if(pld == "Toolbox"){
-		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
-		preloadScripts(['preloader.js', 'Toolbox.js', 'loader.js']);		
 	}else if(pld == "linux1gb"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		preloadScripts(['preloader.js', 'linuxl1gb.js', 'loader.js']);
 	}else if(pld == "linux3gb"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		preloadScripts(['preloader.js', 'linuxl3gb.js', 'loader.js']);
-	}else if(pld == "todex"){
+	}else if(pld == "kernelclock"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
-		preloadScripts(['preloader.js', 'todex.js', 'loader.js']);
+		preloadScripts(['preloader.js', 'kernelclock.js', 'loader.js']);
 	}else if(pld == "historyblocker"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		preloadScripts(['preloader.js', 'historyblocker.js', 'loader.js']);
@@ -159,29 +156,29 @@ function toggle_payload(pld){
 	}else if(pld == "webrte"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		preloadScripts(['preloader.js', 'webrte.js', 'loader.js']);
-	}else if(pld == "gtava1"){
-		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
-		preloadScripts(['preloader.js', 'gtava1.js', 'loader.js']);
-	}else if(pld == "gtava2"){
-		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
-		preloadScripts(['preloader.js', 'gtava2.js', 'loader.js']);
-	}else if(pld == "gtava3"){
-		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
-		preloadScripts(['preloader.js', 'gtava3.js', 'loader.js']);
-	}else if(pld == "gtavl"){
-		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
-		preloadScripts(['preloader.js', 'gtavl.js', 'loader.js']);
 	}else if(pld == "fan"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		preloadScripts(['preloader.js', 'fanThreshold.js', 'loader.js']);
 		localStorage.setItem('fanthreshold', tempC.value);
-	}else if(pld == "oyster113"){
+	}else if(pld == "ArabicGuy100"){
+		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
+		preloadScripts(['preloader.js', 'gtava1.js', 'loader.js']);
+	}else if(pld == "ArabicGuy127"){
+		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
+		preloadScripts(['preloader.js', 'gtava2.js', 'loader.js']);
+	}else if(pld == "ArabicGuy134"){
+		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
+		preloadScripts(['preloader.js', 'gtava3.js', 'loader.js']);
+	}else if(pld == "Lamance"){
+		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
+		preloadScripts(['preloader.js', 'gtavl.js', 'loader.js']);
+	}else if(pld == "rd2113"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		preloadScripts(['preloader.js', 'oyster113.js', 'loader.js']);
-	}else if(pld == "oyster119"){
+	}else if(pld == "rd2119"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		preloadScripts(['preloader.js', 'oyster119.js', 'loader.js']);
-	}else if(pld == "oyster124"){
+	}else if(pld == "rd2124"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		preloadScripts(['preloader.js', 'oyster124.js', 'loader.js']);
 	}
