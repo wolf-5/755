@@ -101,7 +101,7 @@ function toggle_payload(pld){
 		}
 	}else if(pld == "hen213b"){
 		document.getElementById("progress").innerHTML="Loading Hen v2.1.3b ... Please wait..";
-		preloadScripts(['jb.js', 'mira.js', 'hen213b.js', 'loader.js']);
+		preloadScripts(['jb.js', 'preloaderx.js', 'hen213b.js', 'loader.js']);
 	}else if(pld == "toolbox"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		preloadScripts(['preloader.js', 'Toolbox755.js', 'loader.js']);			
