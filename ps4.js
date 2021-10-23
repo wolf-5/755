@@ -88,16 +88,16 @@ function toggle_payload(pld){
 	if(pld == "goldhen"){
 		document.getElementById("progress").innerHTML="Loading GoldHenv1.0.. Please wait..";
 	if(fw=="755"){
-			preloadScripts(['jb.js', 'preloader.js', 'goldhen1v'+fw+'.js', 'loader.js']);
+			preloadScripts(['jb.js', 'preloader.js', 'goldhen'+fw+'.js', 'loader.js']);
 	}else{
-			preloadScripts(['preloader'+fw+'.js', 'goldhen1v'+fw+'.js', 'loader.js']);	
+			preloadScripts(['preloader'+fw+'.js', 'goldhen'+fw+'.js', 'loader.js']);	
 		}
 	}else if(pld == "goldhenold"){
 		document.getElementById("progress").innerHTML="Loading GoldHenv1.1.. Please wait..";
 	if(fw=="755"){
-			preloadScripts(['jb.js', 'preloader.js', 'goldhen'+fw+'.js', 'loader.js']);
+			preloadScripts(['jb.js', 'preloader.js', 'goldhen1v'+fw+'.js', 'loader.js']);
 	}else{
-			preloadScripts(['preloader'+fw+'.js', 'goldhen'+fw+'.js', 'loader.js']);	
+			preloadScripts(['preloader'+fw+'.js', 'goldhen1v'+fw+'.js', 'loader.js']);	
 		}
 	}else if(pld == "hen213b"){
 		document.getElementById("progress").innerHTML="Loading Hen v2.1.3b ... Please wait..";
